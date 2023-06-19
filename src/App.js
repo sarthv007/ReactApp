@@ -23,6 +23,17 @@ import ParentRef from "./Components/ParentRef";
 import FRInput from "./Components/FRInput";
 import FormComponent1 from "./Components/FormComponent1";
 import UnControlledComponent from "./Components/UnControlledComponent";
+//import PortalDemo from "./PortalDemo";
+//import MessageComponent from "./Components/MessageComponent";
+// import CounterApp1 from "./Components/CounterApp1";
+// import CounterApp2 from "./Components/CounterApp2";
+// import ClickCounter from "./Components/RenderProps/ClickCounter";
+// import HoverCounter from "./Components/RenderProps/HoverCouter";
+// import UserComponent from "./Components/RenderProps/UserComponent";
+// import WithCounter from "./Components/RenderProps/WithCounter";
+import AComponent from "./Components/Context/AComponent";
+import context from "./Components/Context/Context";
+import RouteComponent from "./Components/SPA/RouteComponent";
 
 class App extends React.Component {
   constructor(props) {
@@ -30,6 +41,25 @@ class App extends React.Component {
 
     this.state = {
       message: "Welcome to react js!",
+      userName: "John Doe",
+      users: [
+        {
+          firstName: "sarthak",
+          lastName: "vaidya",
+        },
+        {
+          firstName: "sarthak1",
+          lastName: "vaidya1",
+        },
+        {
+          firstName: "sarthak2",
+          lastName: "vaidya2",
+        },
+        {
+          firstName: "sarthak3",
+          lastName: "vaidya3",
+        },
+      ],
     };
   }
 
@@ -116,10 +146,36 @@ class App extends React.Component {
         {/* <RefDemo /> */}
         {/* <ParentRef /> */}
         {/* <FRInput /> */}
-        <FormComponent1 />
-        <UnControlledComponent />
+        {/* <FormComponent1 /> */}
+        {/* <UnControlledComponent /> */}
+        {/* <PortalDemo /> */}
+        {/* <MessageComponent /> */}
+        {/* <CounterApp1 courseName={"Javascript"} />
+        <CounterApp2 courseName={"React"} /> */}
+        {/* <ClickCounter />
+        <HoverCounter /> */}
+        {/* <WithCounter
+          render={(counter, handleIncrement) => (
+            <ClickCounter counter={counter} handleIncrement={handleIncrement} />
+          )}
+        ></WithCounter>
+
+        <WithCounter
+          render={(counter, handleIncrement) => (
+            <HoverCounter counter={counter} handleIncrement={handleIncrement} />
+          )}
+        ></WithCounter> */}
+
+        {/* <UserComponent
+          render={(flag) => (flag ? "React" : "Java")}
+        ></UserComponent> */}
+        {/* <context.Provider value={this.state}>
+          <AComponent />
+        </context.Provider> */}
+        <RouteComponent />
       </div>
     );
   }
 }
+
 export default App;

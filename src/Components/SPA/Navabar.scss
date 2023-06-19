@@ -1,0 +1,11 @@
+nav {
+  padding: 20px;
+  background-color: silver;
+  a {
+    margin-right: 20px;
+  }
+  .active {
+    text-decoration: none;
+    color: blue;
+  }
+}
