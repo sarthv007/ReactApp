@@ -35,6 +35,7 @@ import AComponent from "./Components/Context/AComponent";
 import context from "./Components/Context/Context";
 import RouteComponent from "./Components/SPA/RouteComponent";
 import HttpRequest from "./Components/HttpRequest";
+import FormComponent from "./Components/Http/FormComponent";
 
 class App extends React.Component {
   constructor(props) {
@@ -174,7 +175,8 @@ class App extends React.Component {
           <AComponent />
         </context.Provider> */}
         {/* <RouteComponent /> */}
-        <HttpRequest />
+        {/* <HttpRequest /> */}
+        <FormComponent />
       </div>
     );
   }
