@@ -34,6 +34,7 @@ import UnControlledComponent from "./Components/UnControlledComponent";
 import AComponent from "./Components/Context/AComponent";
 import context from "./Components/Context/Context";
 import RouteComponent from "./Components/SPA/RouteComponent";
+import HttpRequest from "./Components/HttpRequest";
 
 class App extends React.Component {
   constructor(props) {
@@ -172,7 +173,8 @@ class App extends React.Component {
         {/* <context.Provider value={this.state}>
           <AComponent />
         </context.Provider> */}
-        <RouteComponent />
+        {/* <RouteComponent /> */}
+        <HttpRequest />
       </div>
     );
   }
