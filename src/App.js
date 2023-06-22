@@ -36,6 +36,11 @@ import context from "./Components/Context/Context";
 import RouteComponent from "./Components/SPA/RouteComponent";
 import HttpRequest from "./Components/HttpRequest";
 import FormComponent from "./Components/Http/FormComponent";
+import ClassCounter from "./Components/functionalComponnent/ClassCounter";
+import HookCounter from "./Components/functionalComponnent/HookCounter";
+import HookDemo1 from "./Components/functionalComponnent/HookDemo1";
+import ClassComponentDemo from "./Components/functionalComponnent/ClassComponentDemo";
+import EffectHookDemo from "./Components/functionalComponnent/EffectHookDemo";
 
 class App extends React.Component {
   constructor(props) {
@@ -176,7 +181,13 @@ class App extends React.Component {
         </context.Provider> */}
         {/* <RouteComponent /> */}
         {/* <HttpRequest /> */}
-        <FormComponent />
+        {/* <FormComponent /> */}
+        {/* <ClassCounter />
+         */}
+        <HookCounter />
+        {/* <HookDemo1 /> */}
+        {/* <ClassComponentDemo /> */}
+        {/* <EffectHookDemo /> */}
       </div>
     );
   }
