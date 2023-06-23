@@ -41,6 +41,13 @@ import HookCounter from "./Components/functionalComponnent/HookCounter";
 import HookDemo1 from "./Components/functionalComponnent/HookDemo1";
 import ClassComponentDemo from "./Components/functionalComponnent/ClassComponentDemo";
 import EffectHookDemo from "./Components/functionalComponnent/EffectHookDemo";
+import Hook1 from "./Components/functionalComponnent/Hook1";
+import MouseContainer from "./Components/functionalComponnent/MouseContainer";
+import ClassTitleDemo from "./Components/functionalComponnent/ClassTitleDemo";
+import HookDemo2 from "./Components/functionalComponnent/HookDemo2";
+import MouseDemo from "./Components/functionalComponnent/MouseDemo";
+import SelfClasCounter from "./Components/functionalComponnent/SelfClasCounter";
+import HookDemo4 from "./Components/functionalComponnent/HookDemo4";
 
 class App extends React.Component {
   constructor(props) {
@@ -184,10 +191,15 @@ class App extends React.Component {
         {/* <FormComponent /> */}
         {/* <ClassCounter />
          */}
-        <HookCounter />
+        {/* <HookCounter /> */}
         {/* <HookDemo1 /> */}
         {/* <ClassComponentDemo /> */}
         {/* <EffectHookDemo /> */}
+        {/* <ClassTitleDemo /> */}
+        {/* <HookDemo2 /> */}
+        {/* <MouseDemo /> */}
+        {/* <SelfClasCounter /> */}
+        <HookDemo4 />
       </div>
     );
   }
