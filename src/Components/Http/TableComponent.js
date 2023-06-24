@@ -15,8 +15,6 @@ function TableComponent(props) {
     });
   return (
     <div>
-      <h2>Fetching posts from api using fetch api</h2>
-
       <table>
         <tr>
           <th>Id</th>

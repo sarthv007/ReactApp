@@ -48,6 +48,10 @@ import HookDemo2 from "./Components/functionalComponnent/HookDemo2";
 import MouseDemo from "./Components/functionalComponnent/MouseDemo";
 import SelfClasCounter from "./Components/functionalComponnent/SelfClasCounter";
 import HookDemo4 from "./Components/functionalComponnent/HookDemo4";
+import PostComponent from "./Components/functionalComponnent/PostComponent";
+import UseRefDemo from "./Components/functionalComponnent/UseRefDemo";
+import ClassCompRefDemo from "./Components/functionalComponnent/ClassCompRefDemo";
+import UseRefDemo2 from "./Components/functionalComponnent/UseRefDemo2";
 
 class App extends React.Component {
   constructor(props) {
@@ -199,7 +203,11 @@ class App extends React.Component {
         {/* <HookDemo2 /> */}
         {/* <MouseDemo /> */}
         {/* <SelfClasCounter /> */}
-        <HookDemo4 />
+        {/* <HookDemo4 /> */}
+        {/* <PostDetails /> */}
+        {/* <ClassCompRefDemo /> */}
+        {/* <UseRefDemo /> */}
+        <UseRefDemo2 />
       </div>
     );
   }
