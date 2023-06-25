@@ -15,14 +15,18 @@ function TableComponent(props) {
     });
   return (
     <div>
-      <table>
-        <tr>
-          <th>Id</th>
-          <th>Title</th>
-          <th>Body</th>
-        </tr>
-        {tableHtml}
-      </table>
+      {posts.length ? (
+        <table>
+          <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Body</th>
+          </tr>
+          {tableHtml}
+        </table>
+      ) : (
+        ""
+      )}
     </div>
   );
 }

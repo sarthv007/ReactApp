@@ -52,6 +52,9 @@ import PostComponent from "./Components/functionalComponnent/PostComponent";
 import UseRefDemo from "./Components/functionalComponnent/UseRefDemo";
 import ClassCompRefDemo from "./Components/functionalComponnent/ClassCompRefDemo";
 import UseRefDemo2 from "./Components/functionalComponnent/UseRefDemo2";
+import Demo from "./Components/functionalComponnent/Demo";
+import FetchComponent from "./Components/functionalComponnent/FetchComponent";
+import UseReducerDemo from "./Components/functionalComponnent/UseReducerDemo";
 
 class App extends React.Component {
   constructor(props) {
@@ -207,7 +210,10 @@ class App extends React.Component {
         {/* <PostDetails /> */}
         {/* <ClassCompRefDemo /> */}
         {/* <UseRefDemo /> */}
-        <UseRefDemo2 />
+        {/* <UseRefDemo2 /> */}
+        {/* <Demo /> */}
+        {/* <FetchComponent /> */}
+        <UseReducerDemo />
       </div>
     );
   }
