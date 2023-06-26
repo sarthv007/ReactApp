@@ -55,6 +55,11 @@ import UseRefDemo2 from "./Components/functionalComponnent/UseRefDemo2";
 import Demo from "./Components/functionalComponnent/Demo";
 import FetchComponent from "./Components/functionalComponnent/FetchComponent";
 import UseReducerDemo from "./Components/functionalComponnent/UseReducerDemo";
+import UseCallbackDemo from "./Components/functionalComponnent/UseCallbackDemo";
+import UseMemoComponent from "./Components/functionalComponnent/UseMemoComponent";
+import HookCounter1 from "./Components/functionalComponnent/HookCounter1";
+import HookCounter2 from "./Components/functionalComponnent/HookCounter2";
+import FetchData from "./Components/functionalComponnent/FetchData";
 
 class App extends React.Component {
   constructor(props) {
@@ -213,7 +218,12 @@ class App extends React.Component {
         {/* <UseRefDemo2 /> */}
         {/* <Demo /> */}
         {/* <FetchComponent /> */}
-        <UseReducerDemo />
+        {/* <UseReducerDemo /> */}
+        {/* <UseCallbackDemo /> */}
+        {/* <UseMemoComponent /> */}
+        {/* <HookCounter1 />
+        <HookCounter2 /> */}
+        <FetchData />
       </div>
     );
   }

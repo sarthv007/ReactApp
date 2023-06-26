@@ -63,7 +63,7 @@ function UseReducerDemo() {
           //   setError(error.message);
           dispatch({ type: "ERROR", payload: error.message });
         });
-    }, 5000);
+    }, 1000);
   }, []);
 
   return (
