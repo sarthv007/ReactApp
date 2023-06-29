@@ -60,6 +60,10 @@ import UseMemoComponent from "./Components/functionalComponnent/UseMemoComponent
 import HookCounter1 from "./Components/functionalComponnent/HookCounter1";
 import HookCounter2 from "./Components/functionalComponnent/HookCounter2";
 import FetchData from "./Components/functionalComponnent/FetchData";
+import CakeComponent from "./Components/CakeComponent";
+import HookCakeShop from "./Components/functionalComponnent/HookCakeShop";
+import ReduxCounter from "./Components/functionalComponnent/ReduxCounter";
+import PostsComponent from "./Components/PostComponent";
 
 class App extends React.Component {
   constructor(props) {
@@ -223,7 +227,10 @@ class App extends React.Component {
         {/* <UseMemoComponent /> */}
         {/* <HookCounter1 />
         <HookCounter2 /> */}
-        <FetchData />
+        {/* <CakeComponent /> */}
+        {/* <HookCakeShop /> */}
+        {/* <ReduxCounter /> */}
+        <PostsComponent />
       </div>
     );
   }

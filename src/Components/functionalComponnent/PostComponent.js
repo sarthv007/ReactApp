@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useEffect } from "react";
 import { useState } from "react";
 import TableComponent from "../Http/TableComponent";
+
 //https://www.youtube.com/watch?v=YMSBRS83YZ8&t=1s
 function PostComponent() {
   const [posts, setPosts] = useState([]);
