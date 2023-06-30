@@ -1,5 +1,6 @@
 import React from "react";
 //import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import ConditionalRendingDemo from "./Components/ConditionalRendingDemo";
 import Counter from "./Components/Counter";
 import CounterDemo from "./Components/CounterDemo";
@@ -114,7 +115,14 @@ class App extends React.Component {
     };
     //console.log(this.props);
     return (
-      <div className={"App"}>
+      <div
+        className={"App"}
+        style={{
+          margin: "20px auto",
+          width: "100%",
+          padding: "10px",
+        }}
+      >
         {/* <Welcome></Welcome> */}
         {/* <Welcome
           text={"Hello React World!!"}
@@ -230,7 +238,8 @@ class App extends React.Component {
         {/* <CakeComponent /> */}
         {/* <HookCakeShop /> */}
         {/* <ReduxCounter /> */}
-        <PostsComponent />
+        {/* <PostsComponent /> */}
+        <RouteComponent />
       </div>
     );
   }

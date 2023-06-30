@@ -12,6 +12,10 @@ import NewProducts from "./NewProducts";
 import OldProducts from "./OldProducts";
 import UsersDetailsPage from "./UsersDetailsPage";
 import Users from "./Users";
+import UserList from "../../CRUDApp/UserList";
+import NavbarComp from "../../CRUDApp/Navbar";
+import AddUser from "../../CRUDApp/AddUser";
+import EditUser from "../../CRUDApp/EditUser";
 
 const Home = lazy(() => import("./Home"));
 const About = lazy(() => import("./About"));
@@ -21,7 +25,8 @@ const Products = lazy(() => import("./Products"));
 function RouteComponent() {
   return (
     <div>
-      <Navbar />
+      <NavbarComp />
+      {/* <Navbar />
       <Suspense fallback={"...loading"}>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -41,7 +46,12 @@ function RouteComponent() {
           <Route path="/orders" element={<Orders />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </Suspense>
+      </Suspense> */}
+      <Routes>
+        <Route path="/" element={<UserList />} />
+        <Route path="/add-users" element={<AddUser />} />
+        <Route path="/users/:id" element={<EditUser />} />
+      </Routes>
     </div>
   );
 }
